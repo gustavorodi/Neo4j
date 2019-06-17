@@ -153,7 +153,7 @@ public class Main implements AutoCloseable {
                     return result.single().get(0).asString();
             }
         });  
-        if("Lista_de_Contatos" != greeting){
+        if("Lista_de_Contatos" == greeting){
             return true;
         }
         return false;
